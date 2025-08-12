@@ -27,7 +27,7 @@
                                                 &mkp MB1     &mo 2                                 &kp ENTER
             >;
 
-            
+            trackball-bindings = <&tmv_coarse>;
         };
 
         layer_1 {
@@ -40,7 +40,7 @@
                                              &trans     &trans      &trans
             >;
 
-            
+            trackball-bindings = <&tsl>;
         };
 
         /* layer_2 {
@@ -52,7 +52,7 @@
                                          &trans           &trans                &to 4                  &trans                 &trans 
                                                           &trans                &trans                 &trans 
             >;
-          
+          trackball-bindings = <&tsl>;
             
         };
 
@@ -80,7 +80,7 @@
             >;
                 
                 
-                
+                trackball-bindings = <&tsl>;
         };
 
         layer_5 {
@@ -92,11 +92,8 @@
                            &trans     &mkp LCLK  &mkp RCLK    &mkp RCLK  &mkp LCLK
                                       &trans     &trans       &trans
             >;
-                
+                trackball-bindings = <&tmv_fine>;
                 
         };*/
     };
 };
-
-
-
