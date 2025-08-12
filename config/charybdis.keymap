@@ -76,7 +76,7 @@
 &trans  &kp LCTRL  &kp A      &kp S      &kp D             &kp F            &trans           &trans     &trans     &trans     &trans  &trans
 &trans  &trans     &trans     &kp B    &kp M            &kp G           &trans           &trans     &trans     &trans     &trans  &trans
                               &trans     &kp LEFT_SHIFT    &trans            &trans           &trans
-                                         &trans             &to 0           &trans
+                                         &kp SPACE              &to 0           &trans
             >;
                 
                 
