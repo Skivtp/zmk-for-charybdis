@@ -23,8 +23,8 @@
 &kp TAB         &kp Q           &kp W           &kp E        &kp R                 &kp T           &kp Y      &kp U              &kp I        &kp O            &kp P                    &kp BSLH
 &kp LEFT_SHIFT  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F      &kp G           &kp H      &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON     &kp SQT
 &kp LCTRL       &kp Z   &kp X   &kp C           &kp V        &kp B                                 &kp N      &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp DEL
-                                &kp SPACE       &mkp MB2     &mo 1                                 &mo 3      &to 4
-                                                &mkp MB1     &mo 2                                 &kp ENTER
+                                &kp SPACE       &mkp MB2     &mo 1                                 &mo 3      &kp ENTER
+                                                &mkp MB1     &mo 2                                 &to 4
             >;
 
             
