@@ -55,5 +55,3 @@ trackballs {
 		duplex = <2048>; // required by 3-wire spi
 	};
 };
-};
-
