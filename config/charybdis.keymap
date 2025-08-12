@@ -9,7 +9,9 @@
     flavor = "balanced";
     quick-tap-ms = <150>;
 };
+
 / {
+ 
 behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
@@ -36,7 +38,6 @@ td3: tap_dance_3 {
             bindings = <&kp N9>, <&kt KP_NUMLOCK>;
         };
     };
- {
     keymap {
         compatible = "zmk,keymap";
 
