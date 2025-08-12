@@ -36,7 +36,7 @@ td3: tap_dance_3 {
             bindings = <&kp N9>, <&kt KP_NUMLOCK>;
         };
     };
-/ {
+ {
     keymap {
         compatible = "zmk,keymap";
 
