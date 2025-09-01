@@ -41,7 +41,7 @@
             trackball-bindings = <&tsl>;
         };
 
-        /* layer_2 {
+         layer_2 {
             bindings = <
 &trans    &trans          &trans         &trans           &trans                &trans                 &trans                  &trans     &trans      &trans            &trans  &trans
 &trans    &trans          &trans         &trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                 &trans     &trans      &trans            &trans  &trans
@@ -92,6 +92,6 @@
             >;
                 trackball-bindings = <&tmv_fine>;
                 
-        };*/
+        };
     };
 };
