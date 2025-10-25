@@ -70,11 +70,11 @@
         layer_4 {
             bindings = <
 &trans  &kp N1     &kp N2     &kp N3     &trans            &trans            &trans           &trans     &trans     &trans     &trans  &trans
-&trans  &kp R     &kp Q     &kp W      &kp R             &kp E           &trans           &trans     &trans     &trans     &trans  &trans
-&trans  &kp F  &kp A      &kp S      &kp D             &kp F            &trans           &trans     &trans     &trans     &trans  &trans
+&trans  &kp R     &kp Q     &kp W      &kp R             &kp C           &trans           &trans     &trans     &trans     &trans  &trans
+&trans  &kp LCTRL  &kp A      &kp S      &kp D             &kp X            &trans           &trans     &trans     &trans     &trans  &trans
 &to 0   &trans     &kp X     &kp B    &kp M            &kp G           &trans           &trans     &trans     &trans     &trans  &trans
-                              &kp LCTRL     &kp LEFT_SHIFT    &kp 3            &to 0            &trans
-                                         &kp SPACE           &kp 4           &trans
+                              &kp LCTRL     &kp F    &kp E            &to 0            &trans
+                                         &kp LEFT_SHIFT          &kp SPACE           &trans
             >;
                 
                 
