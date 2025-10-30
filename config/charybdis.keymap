@@ -34,7 +34,7 @@
 &kp CAPS        &trans  &trans  &kp N1       &kp N2     &kp N3      &kp EXCL     &kp AT     &kp HASH    &trans            &trans  &trans
 &kp CAPS        &trans  &trans  &kp N4       &kp N5     &kp N6      &kp DLLR     &kp PRCNT  &kp CARET   &trans            &kp LEFT_BRACKET  &kp RBKT
 &to 4      &trans  &kp N0  &kp N7       &kp N8     &kp N9      &kp AMPS     &kp ASTRK  &trans      &trans            &trans  &trans
-                                &trans       &trans     &trans      &trans     &trans 
+                                &trans       &mo 3     &trans      &trans     &trans 
                                              &trans     &trans      &trans
             >;
 
