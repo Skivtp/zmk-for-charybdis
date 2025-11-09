@@ -19,10 +19,10 @@
             bindings = <
 &kp ESC         &kp N1          &kp N2          &kp N3       &kp N4                &kp N5          &kp N6     &kp N7             &kp N8       &kp N9           &kp N0                   &kp BACKSPACE
 &kp TAB         &kp Q           &kp W           &kp E        &kp R                 &kp T           &kp Y      &kp U              &kp I        &kp O            &kp P                    &kp BSLH
-&kp LEFT_SHIFT  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F      &kp G           &kp H      &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON     &kp SQT
-&kp LCTRL      &kp Z   &kp X   &kp C           &kp V        &kp B                                 &kp N      &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp DEL
-                                &kp SPACE       &kp ENTER     &mo 1                                 &mkp MB2      &kp ENTER
-                                                &kp LEFT_GUI   &mo 2                                 &mkp MB1
+&kp APOS        &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F      &kp G           &kp H      &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &kp SQT
+&kp TILDE       &kp Z           &kp X           &kp C        &kp V                 &kp B           &kp N      &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp DEL
+                                                &kp SPACE    &mo 3                 &mo 1           &mkp MB2   &kp ENTER
+                                                             &mo 4                 &mo 2           &mkp MB1
             >;
 
             trackball-bindings = <&tmv_coarse>;
@@ -30,12 +30,12 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE          &kp F1  &kp F2  &kp F3       &kp F4     &kp F5      &kp F6       &kp F7     &kp F8      &kp F9            &kp F10  &kp F11
-&kp CAPS        &trans  &trans  &kp N1       &kp N2     &kp N3      &kp EXCL     &kp AT     &kp HASH    &trans            &trans  &trans
-&kp CAPS        &trans  &trans  &kp N4       &kp N5     &kp N6      &kp DLLR     &kp PRCNT  &kp CARET   &trans            &kp LEFT_BRACKET  &kp RBKT
-&to 4      &trans  &kp N0  &kp N7       &kp N8     &kp N9      &kp AMPS     &kp ASTRK  &trans      &trans            &trans  &trans
-                                &trans       &mo 3     &trans      &trans     &trans 
-                                             &trans     &trans      &trans
+&kp GRAVE  &kp F1  &kp F2  &kp F3       &kp F4     &kp F5      &kp F6                  &kp F7                 &kp F8     &kp F9   &kp F10     &kp F11
+&kp APOS   &trans  &trans  &kp N1       &kp N2     &kp N3      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp COLON  &kp FSLH &kp BSLH    &kp PIPE 
+&kp TILDE  &trans  &trans  &kp N4       &kp N5     &kp N6      &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp LT     &kp GT   &kp DOT     &kp SQT 
+&to 4      &trans  &kp N0  &kp N7       &kp N8     &kp N9      &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp        &kp      &kp         &kp 
+                           &trans       &mo 3      &trans      &kp UNDER               &kp DOT  
+                                        &trans     &trans      &kp SINGLE_QUOTE
             >;
 
             trackball-bindings = <&tsl>;
@@ -43,12 +43,12 @@
 
          layer_2 {
             bindings = <
-&trans    &trans          &trans         &trans           &trans                &trans                 &trans                  &trans     &trans      &trans            &trans  &trans
-&trans    &trans          &trans         &trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                 &trans     &trans      &trans            &trans  &trans
-&trans    &kp LEFT_ARROW  &kp UP_ARROW   &trans           &kp EQUAL             &kp MINUS              &trans                &trans     &trans      &trans            &trans  &trans
-&trans    &trans          &kp DOWN_ARROW &kp RIGHT_ARROW  &kp DEL               &kp BACKSPACE          &trans                &trans     &trans      &trans            &trans  &trans
-                                         &trans           &trans                &to 4                  &trans                 &trans 
-                                                          &trans                &trans                 &trans 
+&to 4     &trans          &trans         &trans           &trans       &trans         &trans   &trans     &trans      &trans            &trans  &trans
+&trans    &trans          &trans         &trans           &kp MINUS    &kp PLUS       &trans   &trans     &trans      &trans            &trans  &trans
+&trans    &kp LEFT_ARROW  &kp UP_ARROW   &trans           &kp EQUAL    &kp UNDER      &trans   &trans     &trans      &trans            &trans  &trans
+&trans    &trans          &kp DOWN_ARROW &kp RIGHT_ARROW  &kp DEL      &kp BACKSPACE  &trans   &trans     &trans      &trans            &trans  &trans
+                                         &trans           &kp trans    &trans         &trans   &trans 
+                                                          &trans       &trans         &trans 
             >;
           trackball-bindings = <&tsl>;
             
@@ -69,12 +69,12 @@
 
         layer_4 {
             bindings = <
-&trans  &kp N1     &kp N2     &kp N3     &trans            &trans            &trans           &trans     &trans     &trans     &trans  &trans
-&trans  &kp R     &kp Q     &kp W      &kp R             &kp C           &trans           &trans     &trans     &trans     &trans  &trans
-&trans  &kp LCTRL  &kp A      &kp S      &kp D             &kp X            &trans           &trans     &trans     &trans     &trans  &trans
-&to 0   &trans     &kp X     &kp B    &kp M            &kp G           &trans           &trans     &trans     &trans     &trans  &trans
-                              &kp LCTRL     &kp F    &kp E            &to 0            &trans
-                                         &kp LEFT_SHIFT          &kp SPACE           &trans
+&trans  &kp N1     &kp N2    &kp N3     &trans          &trans       &trans           &trans     &trans     &trans     &trans  &trans
+&trans  &kp R      &kp Q     &kp W      &kp R           &kp C        &trans           &trans     &trans     &trans     &trans  &trans
+&trans  &kp LCTRL  &kp A     &kp S      &kp D           &kp X        &trans           &trans     &trans     &trans     &trans  &trans
+&to 0   &trans     &kp X     &kp B      &kp M           &kp G        &trans           &trans     &trans     &trans     &trans  &trans
+                             &kp LCTRL  &kp F           &kp E        &to 0            &trans
+                                        &kp LEFT_SHIFT  &kp SPACE    &trans
             >;
                 
                 
