@@ -47,7 +47,7 @@
 &trans    &trans          &trans         &trans           &kp MINUS    &kp PLUS       &trans   &trans     &trans      &trans            &trans  &trans
 &trans    &kp LEFT_ARROW  &kp UP_ARROW   &trans           &kp EQUAL    &kp UNDER      &trans   &trans     &trans      &trans            &trans  &trans
 &trans    &trans          &kp DOWN_ARROW &kp RIGHT_ARROW  &kp DEL      &kp BACKSPACE  &trans   &trans     &trans      &trans            &trans  &trans
-                                         &trans           &kp trans    &trans         &trans   &trans 
+                                         &trans           &trans    &trans         &trans   &trans 
                                                           &trans       &trans         &trans 
             >;
           trackball-bindings = <&tsl>;
