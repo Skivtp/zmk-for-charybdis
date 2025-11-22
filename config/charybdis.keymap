@@ -73,7 +73,7 @@
 &trans  &kp Q      &kp E     &kp W      &kp R           &kp T        &trans           &trans     &trans     &trans     &trans  &trans
 &trans  &kp LCTRL  &kp A     &kp S      &kp D           &kp F        &trans           &trans     &trans     &trans     &trans  &trans
 &to 0   &trans     &kp X     &kp B      &kp M           &kp G        &trans           &trans     &trans     &trans     &trans  &trans
-                             &kp LCTRL  &kp F           &kp SPACE    q&to 0            &trans
+                             &kp LCTRL  &kp F           &kp SPACE    &to 0            &trans
                                         &kp LEFT_SHIFT  &kp SPACE    &trans
             >;
                 
